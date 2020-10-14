@@ -14,7 +14,7 @@ h3{
 
 #page {
   height: 100%; width: 100%;
-    background-color:#4e4ebe;
+    background-color: lightblue;
 }
 #tdcontent {
   height: 100%;
@@ -64,7 +64,7 @@ button{
 #content {
   font-family: Tahoma, 'sans-serif' ;
   text-align:center;
-  background-color:#e64040;
+  background-color:gray;
   height:100%;
   overflow: auto; /* or overflow: hidden; */
 }
@@ -110,14 +110,29 @@ button{
     border: 0 0 0 0;
 }
 
-#result{
+
+div#result{
     display:none;
-    /* position: relative; */
     position: static;
 
 }
-#search{
+
+div#search{
     display:block;
     position: static;
-    /* position: relative; */
+    
+}
+
+#list-topics{
+    /* overflow:auto; */
+    overflow-y: auto;
+    /* overflow-x: auto; */
+    /* height:30%; */
+    height:400px;
+}
+
+div.scroll-spy{
+    overflow:auto;
+    height:400px;
+    
 }
